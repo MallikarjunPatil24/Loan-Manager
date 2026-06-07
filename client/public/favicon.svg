@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1A2B4A" />
+      <stop offset="100%" stop-color="#0F172A" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#D4A017" />
+    </linearGradient>
+  </defs>
+  <!-- Background Shield -->
+  <path d="M64,8 L112,28 L112,68 C112,96 92,116 64,124 C36,116 16,96 16,68 L16,28 Z" fill="url(#shieldGrad)" stroke="url(#goldGrad)" stroke-width="4" />
+  
+  <!-- Upward Growth Chart Columns -->
+  <path d="M40,90 L40,65 C40,63 42,61 44,61 L52,61 C54,61 56,63 56,65 L56,90 Z" fill="#F8FAFC" opacity="0.8" />
+  <path d="M60,90 L60,45 C60,43 62,41 64,41 L72,41 C74,41 76,43 76,45 L76,90 Z" fill="#F8FAFC" opacity="0.9" />
+  <path d="M80,90 L80,25 C80,23 82,21 84,21 L92,21 C94,21 96,23 96,25 L96,90 Z" fill="url(#goldGrad)" />
+  
+  <!-- Arrow Path -->
+  <path d="M34,70 L64,40 L84,52 L104,24 M104,24 L92,24 M104,24 L104,36" fill="none" stroke="#D4A017" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+</svg>
